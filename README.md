@@ -21,4 +21,4 @@ Run the training command
 `node train.js`
 This command will read the data in all the files, do some data processing, split between test and training set, create and save the model that should be available in the model folder.
 
-The code needs improvement on due to mismatch of the number of samples it affect the size of the input vector, currently working to improve it, incase you encounter a problem, the number of hadokens, uppercuts, and punches is logged to help you determine where you need to increment or decrement. The number of valid samples per gesture should be 21.
+A mismatch of the number of samples per gesture affects the size of the input vector, currently working to improve it, incase you encounter a problem, the number of hadokens, uppercuts, and punches is logged to help you determine where you need to increment or decrement. The number of valid samples per gesture should be 21.
