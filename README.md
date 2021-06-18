@@ -14,5 +14,3 @@ Start the recording server
 `node record.js`
 Open the /record url of the server on your phone (use https had trouble with sensor reading on http)
 When you hold down any finger on the screen, it will send data to the Node.js server via web sockets. When you release, all this data is saved in a .txt file in the data folder.
-
-To record gesture of the same type, no need to re-run the above command all the time, simply hold down any fingers on the screen again and execute the same gesture. When released, the new data will be saved in a new file in the data folder.
