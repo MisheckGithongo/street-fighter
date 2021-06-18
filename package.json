@@ -1,0 +1,22 @@
+{
+  "name": "street-fighter",
+  "version": "1.0.0",
+  "description": "Playing Street Fighter using Tensorflow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisheckGithongo/street-fighter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisheckGithongo/street-fighter/issues"
+  },
+  "homepage": "https://github.com/MisheckGithongo/street-fighter#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}
