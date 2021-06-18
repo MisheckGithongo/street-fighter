@@ -22,3 +22,10 @@ Run the training command
 This command will read the data in all the files, do some data processing, split between test and training set, create and save the model that should be available in the model folder.
 
 A mismatch of the number of samples per gesture affects the size of the input vector, currently working to improve it, incase you encounter a problem, the number of hadokens, uppercuts, and punches is logged to help you determine where you need to increment or decrement. The number of valid samples per gesture should be 21.
+
+## 3. Predict
+
+`node predict.js`
+Using Chrome on your phone, visit the url indicated by ngrok followed by /predict.
+
+When this command is run, you can execute one of the gestures you trained by holding down any finger on the screen, executing the gesture you want to predict, and release the screen to let the model classify the new samples.
