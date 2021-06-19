@@ -6,7 +6,7 @@ Inspired by [this project](https://github.com/charliegerard/gestures-ml-js) by t
 
 # Demo
 
-[demo](./public/demo.gif)
+![demo](https://user-images.githubusercontent.com/39375916/122634322-38447c80-d0e6-11eb-9291-55dd43c32386.gif)
 
 # How It Works
 
